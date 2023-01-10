@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="time_left">Time Left: %1$d</string>
+    <string name="user_score">Your score: %1$d</string>
+    <string name="bonus_time">You have %1$d seconds more</string>
+    <string name="about_title">Timefighter: %1$s</string>
+    <string name="about_message">Create by Thinh</string>
+</resources>
