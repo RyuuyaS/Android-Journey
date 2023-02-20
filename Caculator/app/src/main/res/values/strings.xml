@@ -19,4 +19,5 @@
     <string name="clear">C</string>
     <string name="PlusSlashMinus">+/-</string>
     <string name="Modulo">%</string>
+    <string name="pow">^</string>
 </resources>

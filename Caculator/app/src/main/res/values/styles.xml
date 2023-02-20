@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Widget.Caculator.Button" parent="Widget.Material3.Button">
+    <style name="Widget.Calculator.Button" parent="Widget.Material3.Button">
         <item name="android:gravity">center</item>
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
         <item name="android:layout_margin">15dp</item>
@@ -22,7 +22,7 @@ in this style file it does not have app:backgroundTint but it can use background
         <item name="android:backgroundTint">#505050</item>
     </style>
 
-    <style name="Widget.Caculator.Button0" parent="Widget.Material3.Button">
+    <style name="Widget.Calculator.Button0" parent="Widget.Material3.Button">
         <item name="android:gravity">center_vertical</item>
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
         <item name="backgroundTint">@null</item>
@@ -35,7 +35,7 @@ in this style file it does not have app:backgroundTint but it can use background
         <item name="android:background">@drawable/circle_button</item>
     </style>
 
-    <style name="Widget.Caculator.FunctionalButton" parent="Widget.Material3.Button">
+    <style name="Widget.Calculator.FunctionalButton" parent="Widget.Material3.Button">
         <item name="android:gravity">center</item>
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
         <item name="backgroundTint">@null</item>
@@ -48,7 +48,7 @@ in this style file it does not have app:backgroundTint but it can use background
         <item name="android:background">@drawable/circle_button</item>
     </style>
 
-    <style name="Widget.Caculator.SpecialButton" parent="Widget.Material3.Button">
+    <style name="Widget.Calculator.SpecialButton" parent="Widget.Material3.Button">
         <item name="android:gravity">center</item>
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
         <item name="backgroundTint">@null</item>

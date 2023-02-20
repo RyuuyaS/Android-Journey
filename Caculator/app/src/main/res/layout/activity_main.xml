@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:textSize="25sp"
+            android:textSize="40sp"
             app:layout_constraintBottom_toTopOf="@id/tvOutput"
             app:layout_constraintEnd_toEndOf="parent" />
 
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:textSize="25sp"
+            android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
@@ -45,7 +45,7 @@
 
         <Button
             android:id="@+id/btn0"
-            style="@style/Widget.Caculator.Button0"
+            style="@style/Widget.Calculator.Button0"
             android:text="@string/_0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btnDot"
@@ -53,7 +53,7 @@
 
         <Button
             android:id="@+id/btnDot"
-            style="@style/Widget.Caculator.Button"
+            style="@style/Widget.Calculator.Button"
             android:layout_width="wrap_content"
             android:text="@string/Dot"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -61,14 +61,14 @@
 
         <Button
             android:id="@+id/btn1"
-            style="@style/Widget.Caculator.Button"
+            style="@style/Widget.Calculator.Button"
             android:text="@string/_1"
             app:layout_constraintBottom_toTopOf="@+id/btn0"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/btn2"
-            style="@style/Widget.Caculator.Button"
+            style="@style/Widget.Calculator.Button"
             android:text="@string/_2"
             app:layout_constraintBottom_toTopOf="@+id/btn0"
             app:layout_constraintEnd_toStartOf="@+id/btnDot"
@@ -76,7 +76,7 @@
 
         <Button
             android:id="@+id/btn3"
-            style="@style/Widget.Caculator.Button"
+            style="@style/Widget.Calculator.Button"
             android:text="@string/_3"
             app:layout_constraintBottom_toTopOf="@+id/btnDot"
             app:layout_constraintEnd_toStartOf="@+id/btnPlus"
@@ -84,7 +84,7 @@
 
         <Button
             android:id="@+id/btn4"
-            style="@style/Widget.Caculator.Button"
+            style="@style/Widget.Calculator.Button"
             android:layout_marginBottom="24dp"
             android:text="@string/_4"
             app:layout_constraintBottom_toTopOf="@id/btn1"
@@ -93,7 +93,7 @@
 
         <Button
             android:id="@+id/btn5"
-            style="@style/Widget.Caculator.Button"
+            style="@style/Widget.Calculator.Button"
             android:text="@string/_5"
             app:layout_constraintBottom_toBottomOf="@+id/btn4"
             app:layout_constraintEnd_toEndOf="@+id/btn2"
@@ -102,7 +102,7 @@
 
         <Button
             android:id="@+id/btn6"
-            style="@style/Widget.Caculator.Button"
+            style="@style/Widget.Calculator.Button"
             android:text="@string/_6"
             app:layout_constraintBottom_toBottomOf="@+id/btn5"
             app:layout_constraintEnd_toEndOf="@+id/btn3"
@@ -111,7 +111,7 @@
 
         <Button
             android:id="@+id/btn7"
-            style="@style/Widget.Caculator.Button"
+            style="@style/Widget.Calculator.Button"
             android:layout_marginBottom="15dp"
             android:text="@string/_7"
             app:layout_constraintBottom_toTopOf="@+id/btn4"
@@ -120,7 +120,7 @@
 
         <Button
             android:id="@+id/btn8"
-            style="@style/Widget.Caculator.Button"
+            style="@style/Widget.Calculator.Button"
             android:text="@string/_8"
             app:layout_constraintBottom_toBottomOf="@+id/btn7"
             app:layout_constraintEnd_toEndOf="@+id/btn5"
@@ -129,7 +129,7 @@
 
         <Button
             android:id="@+id/btn9"
-            style="@style/Widget.Caculator.Button"
+            style="@style/Widget.Calculator.Button"
             android:text="@string/_9"
             app:layout_constraintBottom_toBottomOf="@+id/btn8"
             app:layout_constraintEnd_toEndOf="@+id/btn6"
@@ -138,7 +138,7 @@
 
         <Button
             android:id="@+id/btnEqual"
-            style="@style/Widget.Caculator.FunctionalButton"
+            style="@style/Widget.Calculator.FunctionalButton"
             android:text="@string/Equal"
             app:layout_constraintBottom_toBottomOf="@+id/btnDot"
             app:layout_constraintEnd_toEndOf="parent"
@@ -146,14 +146,14 @@
 
         <Button
             android:id="@+id/btnPlus"
-            style="@style/Widget.Caculator.FunctionalButton"
+            style="@style/Widget.Calculator.FunctionalButton"
             android:text="@string/Plus"
             app:layout_constraintBottom_toTopOf="@+id/btnEqual"
             app:layout_constraintEnd_toEndOf="parent" />
 
         <Button
             android:id="@+id/btnMinus"
-            style="@style/Widget.Caculator.FunctionalButton"
+            style="@style/Widget.Calculator.FunctionalButton"
             android:text="@string/Minus"
             app:layout_constraintBottom_toBottomOf="@+id/btn6"
             app:layout_constraintEnd_toEndOf="@+id/btnPlus"
@@ -162,7 +162,7 @@
 
         <Button
             android:id="@+id/btnMultiply"
-            style="@style/Widget.Caculator.FunctionalButton"
+            style="@style/Widget.Calculator.FunctionalButton"
             android:text="@string/x"
             app:layout_constraintBottom_toBottomOf="@+id/btn9"
             app:layout_constraintEnd_toEndOf="@+id/btnMinus"
@@ -171,7 +171,7 @@
 
         <Button
             android:id="@+id/btnDivide"
-            style="@style/Widget.Caculator.FunctionalButton"
+            style="@style/Widget.Calculator.FunctionalButton"
             android:text="@string/Divide"
             app:layout_constraintBottom_toBottomOf="@+id/btnModulo"
             app:layout_constraintEnd_toEndOf="@+id/btnMultiply"
@@ -180,7 +180,7 @@
 
         <Button
             android:id="@+id/btnClear"
-            style="@style/Widget.Caculator.SpecialButton"
+            style="@style/Widget.Calculator.SpecialButton"
             android:layout_marginStart="16dp"
             android:layout_marginBottom="100dp"
             android:text="@string/clear"
@@ -190,10 +190,9 @@
 
 
         <Button
-            android:id="@+id/btnPlusSlashMinus"
-            style="@style/Widget.Caculator.SpecialButton"
-            android:text="@string/PlusSlashMinus"
-            android:textSize="20sp"
+            android:id="@+id/btnPow"
+            style="@style/Widget.Calculator.SpecialButton"
+            android:text="@string/pow"
             app:layout_constraintBottom_toBottomOf="@id/btnClear"
             app:layout_constraintEnd_toEndOf="@id/btn8"
             app:layout_constraintStart_toStartOf="@id/btn8"
@@ -201,12 +200,12 @@
 
         <Button
             android:id="@+id/btnModulo"
-            style="@style/Widget.Caculator.SpecialButton"
+            style="@style/Widget.Calculator.SpecialButton"
             android:text="@string/Modulo"
-            app:layout_constraintBottom_toBottomOf="@id/btnPlusSlashMinus"
+            app:layout_constraintBottom_toBottomOf="@id/btnPow"
             app:layout_constraintEnd_toEndOf="@id/btn9"
             app:layout_constraintStart_toStartOf="@id/btn9"
-            app:layout_constraintTop_toTopOf="@id/btnPlusSlashMinus" />
+            app:layout_constraintTop_toTopOf="@id/btnPow" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
