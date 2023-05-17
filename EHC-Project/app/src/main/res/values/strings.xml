@@ -3,4 +3,10 @@
     <string name="main_screen">EHC</string>
     <string name="members_screen">Member</string>
     <string name="interests_screen">Interests</string>
+    <string name="karim_name">Phạm Việt Thắng</string>
+    <string name="karim_quote">Chúng mày gà vl</string>
+    <string name="ducgt_name">Nguyễn Văn Đức</string>
+    <string name="ducgt_quote">Chưa ngán ai bao giờ</string>
+    <string name="antoine_name">Nguyễn Cao Huy Hoàng</string>
+    <string name="antoine_quote">Không phải do chú còn trẻ đâu. Chú không có trình</string>
 </resources>
